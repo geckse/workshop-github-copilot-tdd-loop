@@ -1,0 +1,14 @@
+{
+  "name": "folio-kanban",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A browser-only kanban board with local storage and customizable columns.",
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "test": "node --test tests/store.test.js",
+    "test:browser": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0"
+  }
+}
