@@ -6,7 +6,7 @@ handoffs:
   - label: Next test
     agent: tdd-red
     prompt: The refactor is done and all tests are green. Pick the next behaviour and write one failing test.
-    send: false
+    send: true
 ---
 
 # TDD Refactor: improve without changing behaviour

@@ -6,7 +6,7 @@ handoffs:
   - label: Refactor
     agent: tdd-refactor
     prompt: All tests are green. Improve the design in small steps. Tests stay locked.
-    send: false
+    send: true
 ---
 
 # TDD Green: make it pass, nothing more

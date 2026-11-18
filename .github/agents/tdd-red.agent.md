@@ -6,7 +6,7 @@ handoffs:
   - label: Make it pass
     agent: tdd-green
     prompt: The new test fails for the right reason. Make it pass with the minimal change. Do not edit any test.
-    send: false
+    send: true
 ---
 
 # TDD Red: write one failing test
