@@ -4,6 +4,8 @@
         "/^node --test --test-name-pattern='renaming a client' tests/store\\.test\\.js$/": {
             "approve": true,
             "matchCommandLine": true
-        }
+        },
+        "npm test": true,
+        "npm run test:browser": true
     }
 }
